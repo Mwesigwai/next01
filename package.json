@@ -2,12 +2,15 @@
   "name": "next01",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Mwesigwai.github.io/next01",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && gh-pages -d out"
   },
+  
   "dependencies": {
     "next": "15.1.4",
     "react": "^19.0.0",
