@@ -76,7 +76,7 @@ const HomeNavigation = () => {
   return (
     <nav
       ref={navRef}
-      className="bg-inherit px-5 xl:px-52 md:px-16 my-9 flex items-center space-x-4"
+      className="bg-inherit px-5 xl:px-52 md:px-16 my-9 flex items-center space-x-1"
     >
       {/* Render visible items */}
       <HomeNavigationItems items={visibleItems} />
